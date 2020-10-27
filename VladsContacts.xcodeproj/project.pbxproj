@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91D05A486A859AB9AB8B0FA7 /* Pods_VladsContacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA76BE31CEF9C68FFFBCA092 /* Pods_VladsContacts.framework */; };
 		ACC4F53F2545C07600ED958D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F53E2545C07600ED958D /* AppDelegate.swift */; };
 		ACC4F5412545C07600ED958D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F5402545C07600ED958D /* SceneDelegate.swift */; };
-		ACC4F5432545C07600ED958D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F5422545C07600ED958D /* ViewController.swift */; };
-		ACC4F5462545C07600ED958D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC4F5442545C07600ED958D /* Main.storyboard */; };
 		ACC4F5482545C07600ED958D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC4F5472545C07600ED958D /* Assets.xcassets */; };
 		ACC4F54B2545C07600ED958D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC4F5492545C07600ED958D /* LaunchScreen.storyboard */; };
+		ACC4F55A2545C0E100ED958D /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F5592545C0E100ED958D /* ContactListView.swift */; };
+		ACC4F55D2545C13600ED958D /* ContactListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F55C2545C13600ED958D /* ContactListController.swift */; };
+		ACC4F5652545C49200ED958D /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F5642545C49200ED958D /* Contact.swift */; };
+		ACC4F5682545C4DF00ED958D /* ContactCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F5672545C4DF00ED958D /* ContactCellItem.swift */; };
+		ACC4F56C2545CC0C00ED958D /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F56B2545CC0C00ED958D /* ContactInfoView.swift */; };
+		ACC4F5702545CC5B00ED958D /* ContactInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F56F2545CC5B00ED958D /* ContactInfoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B3B0DB05093F99CBA49E689 /* Pods-VladsContacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VladsContacts.release.xcconfig"; path = "Target Support Files/Pods-VladsContacts/Pods-VladsContacts.release.xcconfig"; sourceTree = "<group>"; };
 		ACC4F53B2545C07600ED958D /* VladsContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VladsContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC4F53E2545C07600ED958D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACC4F5402545C07600ED958D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACC4F5422545C07600ED958D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ACC4F5452545C07600ED958D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACC4F5472545C07600ED958D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACC4F54A2545C07600ED958D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACC4F54C2545C07600ED958D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC4F5592545C0E100ED958D /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		ACC4F55C2545C13600ED958D /* ContactListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListController.swift; sourceTree = "<group>"; };
+		ACC4F5642545C49200ED958D /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		ACC4F5672545C4DF00ED958D /* ContactCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCellItem.swift; sourceTree = "<group>"; };
+		ACC4F56B2545CC0C00ED958D /* ContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
+		ACC4F56F2545CC5B00ED958D /* ContactInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoController.swift; sourceTree = "<group>"; };
+		D9BC30F4997C5E169512775B /* Pods-VladsContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VladsContacts.debug.xcconfig"; path = "Target Support Files/Pods-VladsContacts/Pods-VladsContacts.debug.xcconfig"; sourceTree = "<group>"; };
+		EA76BE31CEF9C68FFFBCA092 /* Pods_VladsContacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VladsContacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D05A486A859AB9AB8B0FA7 /* Pods_VladsContacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86708CCE73F29A933A0B24FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA76BE31CEF9C68FFFBCA092 /* Pods_VladsContacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ACC4F5322545C07600ED958D = {
 			isa = PBXGroup;
 			children = (
 				ACC4F53D2545C07600ED958D /* VladsContacts */,
 				ACC4F53C2545C07600ED958D /* Products */,
+				ED4B3F25B0E2F910AC194729 /* Pods */,
+				86708CCE73F29A933A0B24FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,61 @@
 		ACC4F53D2545C07600ED958D /* VladsContacts */ = {
 			isa = PBXGroup;
 			children = (
+				ACC4F5722545CCEE00ED958D /* Entities */,
+				ACC4F5582545C0CC00ED958D /* ContactList */,
+				ACC4F56A2545CBF100ED958D /* ContactInfo */,
+				ACC4F5552545C09E00ED958D /* SupportingFiles */,
+			);
+			path = VladsContacts;
+			sourceTree = "<group>";
+		};
+		ACC4F5552545C09E00ED958D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				ACC4F53E2545C07600ED958D /* AppDelegate.swift */,
 				ACC4F5402545C07600ED958D /* SceneDelegate.swift */,
-				ACC4F5422545C07600ED958D /* ViewController.swift */,
-				ACC4F5442545C07600ED958D /* Main.storyboard */,
 				ACC4F5472545C07600ED958D /* Assets.xcassets */,
 				ACC4F5492545C07600ED958D /* LaunchScreen.storyboard */,
 				ACC4F54C2545C07600ED958D /* Info.plist */,
 			);
-			path = VladsContacts;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		ACC4F5582545C0CC00ED958D /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4F5592545C0E100ED958D /* ContactListView.swift */,
+				ACC4F55C2545C13600ED958D /* ContactListController.swift */,
+				ACC4F5672545C4DF00ED958D /* ContactCellItem.swift */,
+			);
+			path = ContactList;
+			sourceTree = "<group>";
+		};
+		ACC4F56A2545CBF100ED958D /* ContactInfo */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4F56B2545CC0C00ED958D /* ContactInfoView.swift */,
+				ACC4F56F2545CC5B00ED958D /* ContactInfoController.swift */,
+			);
+			path = ContactInfo;
+			sourceTree = "<group>";
+		};
+		ACC4F5722545CCEE00ED958D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4F5642545C49200ED958D /* Contact.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		ED4B3F25B0E2F910AC194729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9BC30F4997C5E169512775B /* Pods-VladsContacts.debug.xcconfig */,
+				4B3B0DB05093F99CBA49E689 /* Pods-VladsContacts.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACC4F54F2545C07700ED958D /* Build configuration list for PBXNativeTarget "VladsContacts" */;
 			buildPhases = (
+				29B9C5AF5E65976126057F9B /* [CP] Check Pods Manifest.lock */,
 				ACC4F5372545C07600ED958D /* Sources */,
 				ACC4F5382545C07600ED958D /* Frameworks */,
 				ACC4F5392545C07600ED958D /* Resources */,
+				6C499BA8E337AEA726AEFE7E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +197,65 @@
 			files = (
 				ACC4F54B2545C07600ED958D /* LaunchScreen.storyboard in Resources */,
 				ACC4F5482545C07600ED958D /* Assets.xcassets in Resources */,
-				ACC4F5462545C07600ED958D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29B9C5AF5E65976126057F9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VladsContacts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C499BA8E337AEA726AEFE7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VladsContacts/Pods-VladsContacts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VladsContacts/Pods-VladsContacts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VladsContacts/Pods-VladsContacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ACC4F5372545C07600ED958D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACC4F5432545C07600ED958D /* ViewController.swift in Sources */,
+				ACC4F55A2545C0E100ED958D /* ContactListView.swift in Sources */,
+				ACC4F56C2545CC0C00ED958D /* ContactInfoView.swift in Sources */,
+				ACC4F5702545CC5B00ED958D /* ContactInfoController.swift in Sources */,
+				ACC4F5682545C4DF00ED958D /* ContactCellItem.swift in Sources */,
 				ACC4F53F2545C07600ED958D /* AppDelegate.swift in Sources */,
+				ACC4F5652545C49200ED958D /* Contact.swift in Sources */,
+				ACC4F55D2545C13600ED958D /* ContactListController.swift in Sources */,
 				ACC4F5412545C07600ED958D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +263,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ACC4F5442545C07600ED958D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACC4F5452545C07600ED958D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ACC4F5492545C07600ED958D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +392,13 @@
 		};
 		ACC4F5502545C07700ED958D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9BC30F4997C5E169512775B /* Pods-VladsContacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89WB9E7UEU;
-				INFOPLIST_FILE = VladsContacts/Info.plist;
+				INFOPLIST_FILE = VladsContacts/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +412,13 @@
 		};
 		ACC4F5512545C07700ED958D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3B0DB05093F99CBA49E689 /* Pods-VladsContacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89WB9E7UEU;
-				INFOPLIST_FILE = VladsContacts/Info.plist;
+				INFOPLIST_FILE = VladsContacts/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

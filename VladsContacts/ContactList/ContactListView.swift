@@ -61,8 +61,10 @@ final class ContactListView: UIView {
     
     private func configureTableView() {
         addSubview(tableView)
+        tableView.separatorStyle = .none
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.register(ContactCell.self, forCellReuseIdentifier: ContactCell.identifier)
     }
     
 }
@@ -92,8 +94,8 @@ extension ContactListView: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let currentItem = contactCellItems[indexPath.section][indexPath.row]
-        let cell = UITableViewCell()
-        cell.textLabel?.text = currentItem.displayName
+        let cell = tableView.dequeueReusableCell(withIdentifier: ContactCell.identifier) as! ContactCell
+        cell.setContactName(currentItem.displayName)
         return cell
     }
     

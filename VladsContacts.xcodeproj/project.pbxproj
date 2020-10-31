@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		ACC4F5682545C4DF00ED958D /* ContactCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F5672545C4DF00ED958D /* ContactCellItem.swift */; };
 		ACC4F56C2545CC0C00ED958D /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F56B2545CC0C00ED958D /* ContactInfoView.swift */; };
 		ACC4F5702545CC5B00ED958D /* ContactInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4F56F2545CC5B00ED958D /* ContactInfoController.swift */; };
+		ACCF0848254DA1E80038281E /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCF0847254DA1E80038281E /* ContactCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		ACC4F5672545C4DF00ED958D /* ContactCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCellItem.swift; sourceTree = "<group>"; };
 		ACC4F56B2545CC0C00ED958D /* ContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
 		ACC4F56F2545CC5B00ED958D /* ContactInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoController.swift; sourceTree = "<group>"; };
+		ACCF0847254DA1E80038281E /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		D9BC30F4997C5E169512775B /* Pods-VladsContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VladsContacts.debug.xcconfig"; path = "Target Support Files/Pods-VladsContacts/Pods-VladsContacts.debug.xcconfig"; sourceTree = "<group>"; };
 		EA76BE31CEF9C68FFFBCA092 /* Pods_VladsContacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VladsContacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 				ACC4F5592545C0E100ED958D /* ContactListView.swift */,
 				ACC4F55C2545C13600ED958D /* ContactListController.swift */,
 				ACC4F5672545C4DF00ED958D /* ContactCellItem.swift */,
+				ACCF0847254DA1E80038281E /* ContactCell.swift */,
 			);
 			path = ContactList;
 			sourceTree = "<group>";
@@ -132,7 +135,6 @@
 				D9BC30F4997C5E169512775B /* Pods-VladsContacts.debug.xcconfig */,
 				4B3B0DB05093F99CBA49E689 /* Pods-VladsContacts.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCF0848254DA1E80038281E /* ContactCell.swift in Sources */,
 				ACC4F55A2545C0E100ED958D /* ContactListView.swift in Sources */,
 				ACC4F56C2545CC0C00ED958D /* ContactInfoView.swift in Sources */,
 				ACC4F5702545CC5B00ED958D /* ContactInfoController.swift in Sources */,
